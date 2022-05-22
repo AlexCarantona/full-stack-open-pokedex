@@ -1,0 +1,14 @@
+name: Hola, mundo
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  hola_mundo_job:
+    runs-on: ubuntu-20.04
+    steps:
+      - Saluda
+      run: |
+        echo "Hola, amigo"
