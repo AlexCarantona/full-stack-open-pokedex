@@ -12,17 +12,9 @@ jobs:
       - name: Saluda
         run: |
           echo "Hola, amiguito!"
-    
-    dime_la_fecha_job:
-      runs-on: ubuntu-20.04
-      steps:
-        - name: Dime la hora
-          run: |
-            date
-    
-    contenido:
-      runs-on: ubuntu-20.04
-      steps:
-        - name: Estas son mis carpetas
-          run: |
-            ls -l
+      - name: Dime la hora
+        run: |
+          date
+      - name: Estas son mis carpetas
+        run: |
+          ls -l
