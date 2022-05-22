@@ -9,6 +9,6 @@ jobs:
   hola_mundo_job:
     runs-on: ubuntu-20.04
     steps:
-      - Saluda
+      - name: Saluda
         run: |
-         echo "Hola, amigo"
+          echo "Hello World!"
