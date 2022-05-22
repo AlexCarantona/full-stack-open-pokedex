@@ -11,4 +11,4 @@ jobs:
     steps:
       - Saluda
         run: |
-          echo "Hola, amigo"
+         echo "Hola, amigo"
