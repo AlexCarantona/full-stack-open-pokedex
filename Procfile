@@ -1,1 +1,1 @@
-web: npm run start-prodxkslskd
+web: npm run start-prod

@@ -35,6 +35,6 @@ jobs:
           heroku_email: info@alejandrocarantonna.es
           healthcheck: https://pokedex-alexcarantona.herokuapp.com/health
           checkstring: ok
-          rollbackonhealthcheckfailure: true
+          rollbackonhealthcheckfailed: true
 
         
