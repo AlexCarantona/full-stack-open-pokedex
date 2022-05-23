@@ -33,5 +33,8 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_TOKEN}}
           heroku_app_name: pokedex-alexcarantona
           heroku_email: info@alejandrocarantonna.es
+          healthcheck: https://pokedex-alexcarantona.herokuapp.com/health
+          checkstring: ok
+          rollbackonhealthcheckfailure: true
 
         
