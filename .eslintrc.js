@@ -43,6 +43,10 @@ module.exports = {
     "arrow-spacing": [
       "error", { "before": true, "after": true }
     ],
+    "no-unused-vars": [
+      "error",
+      {"varsIgnorePattern": /$process./}
+    ],
     "no-console": "error",
     "react/prop-types": 0
   }
