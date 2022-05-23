@@ -45,7 +45,7 @@ module.exports = {
     ],
     "no-unused-vars": [
       "error",
-      {"varsIgnorePattern": /$process./}
+      {"varsIgnorePattern": "process"}
     ],
     "no-console": "error",
     "react/prop-types": 0
